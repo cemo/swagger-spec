@@ -22,6 +22,7 @@
     <exec.mainClass>com.example.Application</exec.mainClass>
     <micronaut.runtime>netty</micronaut.runtime>
     <immutables.version>2.8.2</immutables.version>
+    <micronaut.openapi.version>3.0.3</micronaut.openapi.version>
   </properties>
 
   <repositories>
