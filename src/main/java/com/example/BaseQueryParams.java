@@ -3,12 +3,12 @@ package com.example;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Optional;
 
-public interface BaseQueryParams {
+public class BaseQueryParams {
 
   @JsonProperty("location_id")
-  Optional<String> getLocationId();
+  public Optional<String> getLocationId(){return null;}
 
   @JsonProperty("product_id")
-  Optional<Integer> getProductId();
+  public Optional<Integer> getProductId(){return null;}
 
 }

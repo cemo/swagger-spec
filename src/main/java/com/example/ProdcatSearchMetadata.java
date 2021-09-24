@@ -8,13 +8,17 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import org.immutables.value.Value;
 
-public interface ProdcatSearchMetadata extends BaseQueryParams {
+public class ProdcatSearchMetadata extends BaseQueryParams {
 
   @JsonProperty("page")
-  Page getPage();
+  public Page getPage(){
+    return null;
+  }
 
   @JsonProperty("location_id")
-  Optional<String> getLocationId();
+  public Optional<String> getLocationId(){
+    return null;
+  }
 
   interface Page {
 
